@@ -55,16 +55,16 @@
                         </p>
                         <div class="slideshow-container" style="max-width: 35vw; margin: 0 1em 0 1em;"
                             id="float-left">
-                            <div class="mySlides7">
+                            <div class="mySlides1">
                                 <img src="images/OTHER/1.png" style="width: 100%" alt="">
                             </div>
-                            <div class="mySlides7">
+                            <div class="mySlides1">
                                 <img src="images/OTHER/2.jpg" style="width: 100%" alt="">
                             </div>
-                            <div class="mySlides7">
+                            <div class="mySlides1">
                                 <img src="images/OTHER/3.jpg" style="width: 100%" alt="">
                             </div>
-                            <div class="mySlides7">
+                            <div class="mySlides1">
                                 <img src="images/OTHER/4.jpg" style="width: 100%" alt="">
                             </div>
                         </div>
@@ -74,14 +74,14 @@
 
                             function carousel() {
                                 var i;
-                                var x = document.getElementsByClassName("mySlides7");
+                                var x = document.getElementsByClassName("mySlides1");
                                 for (i = 0; i < x.length; i++) {
                                     x[i].style.display = "none";
                                 }
                                 myIndex++;
                                 if (myIndex > x.length) { myIndex = 1 }
                                 x[myIndex - 1].style.display = "block";
-                                setTimeout(carousel, 4000);
+                                setTimeout(carousel, 3000);
                             }
                         </script>
                         <p>
