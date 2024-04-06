@@ -3189,6 +3189,15 @@ img {
 }
 
 /* Slideshow container */
+.alt-slideshow-container {
+	max-height: 60vh;
+	position: relative;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+/* Slideshow container */
 .slideshow-container {
 	max-width: 1000px;
 	position: relative;
