@@ -52,14 +52,51 @@
                             comedy, and fantasy
                             films. In addition to my own films, I love collaborating with other people on their projects
                             and developing niche skills in the process. For example, some of the other things I do are:
+                        </p>
+                        <div class="slideshow-container" style="max-width: 35vw; margin: 0 1em 0 1em;"
+                            id="float-left">
+                            <div class="mySlides7">
+                                <img src="images/OTHER/1.png" style="width: 100%" alt="">
+                            </div>
+                            <div class="mySlides7">
+                                <img src="images/OTHER/2.jpg" style="width: 100%" alt="">
+                            </div>
+                            <div class="mySlides7">
+                                <img src="images/OTHER/3.jpg" style="width: 100%" alt="">
+                            </div>
+                            <div class="mySlides7">
+                                <img src="images/OTHER/4.jpg" style="width: 100%" alt="">
+                            </div>
+                        </div>
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides7");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) { myIndex = 1 }
+                                x[myIndex - 1].style.display = "block";
+                                setTimeout(carousel, 4000);
+                            }
+                        </script>
+                        <p>
                             <li>Acting: I have acted in half a dozen different films in roles ranging from extra to
-                                lead, as well as in theater. It's always a thrill to understand and perform a complex character!</li>
-                            <li>Feedback Sessions: I give feedback and workshop people’s scripts to refine the story and enhance the writer’s
+                                lead, as well as in theater. It's always a thrill to understand and perform a complex
+                                character!</li>
+                            <li>Feedback Sessions: I give feedback and workshop people’s scripts to refine the story and
+                                enhance the writer’s
                                 vision.</li>
-                            <li>Stuntwork: I have undergone basic stunt training and have done some stunts in my own films.</li>
-                            <li>Propwork: I enjoy creating props and practical effects from scratch.</li> 
+                            <li>Stuntwork: I have undergone basic stunt training and have done some stunts in my own
+                                films.</li>
+                            <li>Propwork: I enjoy creating props and practical effects from scratch.</li>
                             <li>Concept Art: I particularly like doing art for fantasy and sci-fi worlds.</li>
-                            <li>Additional Roles: I have general experience across most roles in a film set, but I have special interest in DP and Gaffer.</li>
+                            <li>Additional Roles: I have general experience across most roles in a film set, but I have
+                                a special interest in DP and Gaffer.</li>
                         </p>
                     </article>
                 </div>
